@@ -245,7 +245,7 @@ a {
 
 #section-5 .bg-image {
     position: absolute;
-    background: #333 url('https://github.com/etcvssut/etcvssut.github.io/edit/master/img/contact-bg.JPG');
+    background: #333 url('contact-bg.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
