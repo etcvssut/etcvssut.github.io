@@ -172,9 +172,15 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 650px;
+    height: 550px;
     z-index: -1;
     opacity: 0.2;
+}
+
+@media(min-width: 400px){
+    #section-2 .bg-image {
+        height: 500px;
+    }
 }
 
 #section-2 .content-wrap {
@@ -204,6 +210,7 @@ a {
 
 /* Section-3 */
 #section-3 {
+    /* margin-top: 100px; */
     padding: 2em 1em 1em;
 }
 
@@ -310,7 +317,7 @@ a {
 }
 
 /* Media Query */
-@media(min-width: 700px) {
+@media(min-width: 600px) {
     * {
         letter-spacing: 1.5px;
     }
