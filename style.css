@@ -179,6 +179,12 @@ a {
     opacity: 0.2;
 }
 
+@media(max-width: 294px){
+    #section-2 .bg-image {
+        height: 650px;
+    }
+}
+
 @media(min-width: 400px){
     #section-2 .bg-image {
         height: 500px;
