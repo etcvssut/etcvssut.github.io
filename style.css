@@ -163,7 +163,7 @@ a {
 
 /* Section-2 */
 #setion-2 {
-    min-height: 550px;
+    min-height: 650px;
 }
 
 #section-2 .bg-image {
@@ -174,14 +174,14 @@ a {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 550px;
+    height: 650px;
     z-index: -1;
     opacity: 0.2;
 }
 
-@media(max-width: 294px){
+@media(min-width:300px){
     #section-2 .bg-image {
-        height: 650px;
+        height: 550px;
     }
 }
 
