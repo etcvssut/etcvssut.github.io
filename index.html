@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-  <!-- <div class="techtronix">
-    <a href="events/events.html">Techtronix 2019</a>
-  </div> -->
+<body onload="loaded()">
+  <!-- pre loading screen -->
+  <div id="pre-loader"></div>
+
   <!-- Header Showcase -->
   <div class="logo"><img src="img/logo.jpg" alt="Logo" srcset=""></div>
   <header id="showcase" class="grid">
@@ -187,11 +187,13 @@
         <div class="bg-image"></div>
         <div class="box-content">
           <h2 class="content-title">Contact</h2>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fas fa-at"></i></a>
+          <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/etcvssut"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <!-- <a href="https://gmail.com"><i class="fas fa-at"></i></a> -->
         </div>
+        <h3>Your feedback is valuable!</h3>
+        <p>etc.vssut99@gmail.com</p>
       </div>
     </section>
   </main>
@@ -206,6 +208,14 @@
     </div>
     <a href="credit/credits.html" class="btn" target="_blank">Credits</a>
   </footer>
+
+  <!-- script fired after page content loaded -->
+  <script>
+    function loaded() {
+      let preloader = document.getElementById('pre-loader');
+      preloader.style.display = 'none';
+    }
+  </script>
 </body>
 
 </html>
