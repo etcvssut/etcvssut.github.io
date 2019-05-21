@@ -51,7 +51,7 @@ a {
 
 .logo {
     position: absolute;
-    top: 1em;
+    top: 10%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -105,8 +105,9 @@ a {
 }
 
 #showcase h1 {
-    padding-top: 180px;
-    padding-bottom: 0;
+    position: relative;
+    top: 1.3em;
+    padding-bottom: 1em;
 }
 
 #showcase .content-wrap,
@@ -214,6 +215,29 @@ a {
     background: #333;
     color: #555;
     padding: 2em;
+}
+
+#section-4 ul li {
+    list-style-type: square;
+    text-align: justify;
+}
+
+#section-4 li.title {
+    font-size: 1em;
+    font-weight: 400;
+    color: #eaeaea;
+}
+
+#section-4 p.reveal {
+    font-size: 0em;
+    color: #fff;
+    transform: scale(1, 0);
+    transition: transform .5s ease-in-out;
+}
+
+#section-4 .title:hover .reveal {
+    font-size: 1em;
+    transform: scale(1, 1);
 }
 
 /* Section-5 */
