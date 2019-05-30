@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Image Gallery Responsive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/staff-main.css" />
+</head>
+
+<body>
+    <div class="profile__cards">
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Tapas Ranjan Mohanty</h3>
+                <p><strong>Designation: Senior Instructor</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Suraj Kumar Mishra</h3>
+
+                <p><strong>Designation: Junior Instructor</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Ramji Dehury</h3>
+
+                <p><strong>Designation: Junior Instructor</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Akhya Kumar Samal</h3>
+
+                <p><strong>Designation: Senior Assistant</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Surjyakanta Sahoo</h3>
+
+                <p><strong>Designation: Mechanic</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Ram Chandra Sahoo</h3>
+
+                <p><strong>Designation: Peon</strong></p>
+
+            </div>
+        </div>
+
+        <div class="profile__card">
+            <img src="https://image.flaticon.com/icons/svg/265/265674.svg" alt="image" class="profile__image" />
+            <div class="profile__info">
+                <h3>Mr. Pramod Kumar Swain</h3>
+
+                <p><strong>Designation: Peon</strong></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
